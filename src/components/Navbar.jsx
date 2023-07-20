@@ -4,7 +4,7 @@ import logo from '../assets/dcLogo.webp'
 function Navbar() {
 
     const flechita = <svg     width="calc(8em / 16)"
-    height="calc(8em / 16)" aria-hidden="true" focusable="false" role="presentation" className="icon icon-chevron-down" viewBox="0 0 9 9"><path d="M8.542 2.558a.625.625 0 0 1 0 .884l-3.6 3.6a.626.626 0 0 1-.884 0l-3.6-3.6a.625.625 0 1 1 .884-.884L4.5 5.716l3.158-3.158a.625.625 0 0 1 .884 0z" fill="#000"></path></svg>
+    height="calc(8em / 16)" aria-hidden="true" focusable="false" role="presentation" className="svg-icon fill-current icon icon-chevron-down" viewBox="0 0 9 9"><path d="M8.542 2.558a.625.625 0 0 1 0 .884l-3.6 3.6a.626.626 0 0 1-.884 0l-3.6-3.6a.625.625 0 1 1 .884-.884L4.5 5.716l3.158-3.158a.625.625 0 0 1 .884 0z" fill="#000"></path></svg>
 
   return (
     <header className=''>
@@ -15,10 +15,10 @@ function Navbar() {
             
             
             <ul className='flex font-bold text-[14px] w-[30%] justify-center'>
-                <li className='flex items-center px-2'><span className='pr-2'>HOMBRE</span> {flechita} </li>
-                <li className='flex items-center px-3'><span className='pr-2'>MUJER</span> {flechita} </li>
-                <li className='flex items-center px-3'><span className='pr-2'>NIÑOS</span> {flechita} </li>
-                <li className='flex items-center px-3'><span className='pr-2'>CYBER DC</span> </li>
+                <li className='flex items-center px-2 hover:text-gray-500 svg-icon fill-current'><span className='mr-2  hover:border-b-2 border-black'>HOMBRE</span> {flechita} </li>
+                <li className='flex items-center px-3 hover:text-gray-500 svg-icon fill-current'><span className='mr-2 hover:border-b-2 border-black'>MUJER</span> {flechita} </li>
+                <li className='flex items-center px-3 hover:text-gray-500 svg-icon fill-current'><span className='mr-2 hover:border-b-2 border-black '>NIÑOS</span> {flechita} </li>
+                <li className='flex items-center px-3'><span className='mr-2 hover:border-b-2 border-black'>CYBER DC</span> </li>
             </ul>    
             <ul className='flex justify-end w-[30%]'>
                 <li className=' flex items-center px-3'>
@@ -35,7 +35,7 @@ function Navbar() {
                 </li>
             </ul>
         </section>
-        <section className='flex justify-center font-semibold text-sm items-center py-2 border-b'>
+        <section className='flex justify-center font-semibold text-sm items-center py-2.5 border-b'>
             <h1><span className='text-gray-500'>APROVECHA LO MEJOR DE DC HASTA 50% OFF</span> → COMPRAR AHORA </h1>
         </section>
     </header>
