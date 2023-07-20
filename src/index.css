@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.li:hover .svg-icon {
+    @apply text-blue-700; /* Cambia el color del texto en hover a gris (#808080 en este ejemplo) */
+  }
